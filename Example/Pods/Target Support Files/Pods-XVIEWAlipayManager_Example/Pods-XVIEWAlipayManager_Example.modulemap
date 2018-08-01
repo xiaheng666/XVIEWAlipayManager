@@ -1,0 +1,6 @@
+framework module Pods_XVIEWAlipayManager_Example {
+  umbrella header "Pods-XVIEWAlipayManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

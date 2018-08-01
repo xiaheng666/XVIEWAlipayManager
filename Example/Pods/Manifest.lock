@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWAlipayManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWAlipayManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWAlipayManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWAlipayManager: 39028f2e80499e4cd2da0ea8bd4b481e59c95192
+
+PODFILE CHECKSUM: c3070b1f3ca5399dbaa4bbcd14f73d045567dc6c
+
+COCOAPODS: 1.5.3

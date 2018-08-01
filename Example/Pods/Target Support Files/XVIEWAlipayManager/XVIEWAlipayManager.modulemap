@@ -1,0 +1,6 @@
+framework module XVIEWAlipayManager {
+  umbrella header "XVIEWAlipayManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

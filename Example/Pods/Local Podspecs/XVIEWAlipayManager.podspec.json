@@ -1,0 +1,22 @@
+{
+  "name": "XVIEWAlipayManager",
+  "version": "0.1.0",
+  "summary": "A short description of XVIEWAlipayManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maomao520benben/XVIEWAlipayManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maomao520benben": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "https://github.com/maomao520benben/XVIEWAlipayManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XVIEWAlipayManager/Classes/**/*"
+}
