@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWAlipayManager_Example' do
+  pod 'XVIEWAlipayManager', :path => '../'
+
+  target 'XVIEWAlipayManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
