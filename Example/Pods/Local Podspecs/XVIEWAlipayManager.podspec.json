@@ -1,6 +1,6 @@
 {
   "name": "XVIEWAlipayManager",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "阿里支付",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWAlipayManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWAlipayManager.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
