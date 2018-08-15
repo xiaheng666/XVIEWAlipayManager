@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'XVIEWAlipayManager/Classes/**/*'
+  s.source_files = 'XVIEWAlipayManager/Classes/Alipay/*.a'
   
   # s.resource_bundles = {
-  #   'XVIEWAlipayManager' => ['XVIEWAlipayManager/Assets/*.png']
-  # }
+  #  'XVIEWAlipayManager' => ['XVIEWAlipayManager/Assets/*']
+  #}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+# s.public_header_files = 'XVIEWAlipayManager/Classes/Alipay15.5.5/openssl/*.h'
+   #s.frameworks = 'XVIEWAlipayManager/Classes/Alipay15.5.5/AlipaySDK'
+   #     s.libraries = 'z','ssl'
    s.dependency 'AlipaySDK-Official'
 end

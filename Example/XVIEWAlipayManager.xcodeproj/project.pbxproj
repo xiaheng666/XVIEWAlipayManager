@@ -491,6 +491,12 @@
 				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWAlipayManager/XVIEWAlipayManager-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AlipaySDK-Official\"",
+					"\"${PODS_ROOT}/Headers/Public/XVIEWAlipayManager\"",
+				);
 				INFOPLIST_FILE = "XVIEWAlipayManager/XVIEWAlipayManager-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -507,6 +513,12 @@
 				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWAlipayManager/XVIEWAlipayManager-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AlipaySDK-Official\"",
+					"\"${PODS_ROOT}/Headers/Public/XVIEWAlipayManager\"",
+				);
 				INFOPLIST_FILE = "XVIEWAlipayManager/XVIEWAlipayManager-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
