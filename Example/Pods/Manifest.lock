@@ -1,23 +1,23 @@
 PODS:
-  - AlipaySDK-Official (0.0.1)
-  - XVIEWAlipayManager (0.1.3):
-    - AlipaySDK-Official
+  - AlipaySDK-iOS (15.5.9)
+  - XVIEWAlipayManager (0.1.8):
+    - AlipaySDK-iOS
 
 DEPENDENCIES:
   - XVIEWAlipayManager (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AlipaySDK-Official
+    - AlipaySDK-iOS
 
 EXTERNAL SOURCES:
   XVIEWAlipayManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlipaySDK-Official: 30f8e216033c98d848dd02173626b92ac1c18661
-  XVIEWAlipayManager: 00d0754705d9400937b2950e61b7c8e2fe0da5d5
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  XVIEWAlipayManager: bbb2bfc7667463a3a798071a3699f3510324802c
 
-PODFILE CHECKSUM: 58517b57446f3a7f4153d635e6d6e1fceafb74a6
+PODFILE CHECKSUM: e5900a20f6090b992986f891958dc578b6c40625
 
 COCOAPODS: 1.5.3

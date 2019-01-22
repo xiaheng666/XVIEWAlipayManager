@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AlipaySDK-Official/AlipaySDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AlipaySDK-iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AlipaySDK-Official"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/XVIEWAlipayManager"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AlipaySDK-Official"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AlipaySDK-iOS" "${PODS_ROOT}/Headers/Public/XVIEWAlipayManager"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../XVIEWAlipayManager/Classes/XVIEWAlipayManager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AlipaySDK-iOS" -isystem "${PODS_ROOT}/Headers/Public/XVIEWAlipayManager"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

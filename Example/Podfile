@@ -8,4 +8,5 @@ target 'XVIEWAlipayManager_Example' do
 
     
   end
+  
 end

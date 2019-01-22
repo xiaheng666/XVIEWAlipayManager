@@ -340,7 +340,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWAlipayManager_Example/Pods-XVIEWAlipayManager_Example-resources.sh",
-				"${PODS_ROOT}/AlipaySDK-Official/AlipaySDK/AlipaySDK.bundle",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -487,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 822323FD98BA0211D57698D1 /* Pods-XVIEWAlipayManager_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -494,13 +495,17 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/AlipaySDK-Official\"",
 					"\"${PODS_ROOT}/Headers/Public/XVIEWAlipayManager\"",
 				);
 				INFOPLIST_FILE = "XVIEWAlipayManager/XVIEWAlipayManager-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XVIEWAlipayManager\"",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -509,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AA2844372C8DFB6AC2A5E09 /* Pods-XVIEWAlipayManager_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -516,13 +522,17 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/AlipaySDK-Official\"",
 					"\"${PODS_ROOT}/Headers/Public/XVIEWAlipayManager\"",
 				);
 				INFOPLIST_FILE = "XVIEWAlipayManager/XVIEWAlipayManager-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/XVIEWAlipayManager\"",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

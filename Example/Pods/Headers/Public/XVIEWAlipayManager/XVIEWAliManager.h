@@ -1,0 +1,1 @@
+../../../../../XVIEWAlipayManager/Classes/XVIEWAlipayManager/XVIEWAliManager.h
