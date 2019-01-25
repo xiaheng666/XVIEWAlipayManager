@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWAlipayManager'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = '支付宝'
 
 # This description is used to generate tags and improve search results.

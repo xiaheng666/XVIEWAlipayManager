@@ -16,9 +16,14 @@
 + (instancetype)sharedAliManager;
 
 /**
+ *  注册支付宝scheme
+ @param param    data    {appId  支付宝跳转scheme},
+ */
+- (void)registerApp:(NSDictionary *)param;
+
+/**
  *  支付宝支付
 @param param    data    {"payData":支付参数},
-                scheme  支付宝跳转scheme
                 callback回调方法
  */
 - (void)aliPay:(NSDictionary *)param;
@@ -26,8 +31,7 @@
 /**
  *  支付宝登陆
  @param param     data    {"loginData":登陆参数},
-                  scheme  支付宝跳转scheme
-                  callback回调方法
+                  callback 回调方法
  */
 - (void)aliLogin:(NSDictionary *)param;
 
